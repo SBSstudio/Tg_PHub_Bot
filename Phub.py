@@ -49,17 +49,14 @@ async def time_to_seconds(time):
 )
 async def start(_, message):
     m= await message.reply_text(
-        text = """───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
-───█▒▒░░░░░░░░░▒▒█───
-────█░░█░░░░░█░░█────
-─▄▄──█░░░▀█▀░░░█──▄▄─
-█░░█─▀▄░░░░░░░▄▀─█░░█
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█  
+        text = """
 █ **ＴＧ   ＰｏｒｎＨｕｂ   ＢＯＴ** █
 
 Hello I'm **TG PornHub BOT**.
 
-To Search in **TG PornHub BOT** just simply Type something"""
+To Search in **TG PornHub BOT** just simply Type something
+
+@tgpornhub_bot|@SBS_Studio"""
        )
 
 # Help-------------------------------------------------------------------------
